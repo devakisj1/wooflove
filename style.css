@@ -1,0 +1,218 @@
+
+.img1{
+	border-radius: 50%;
+}
+body, html {
+    height: 100%;
+
+
+}
+.bgvetsignup{
+    /* The image used */
+   /*background-image: url("leio-mclaren-leiomclaren-299158-unsplash.jpg");*/
+   background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("dog-91765_1920.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Verdana";
+    
+
+}
+
+  
+
+.bglogin { 
+    /* The image used */
+   /*background-image: url("leio-mclaren-leiomclaren-299158-unsplash.jpg");*/
+   background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("adorable-animal-canine-179107.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Verdana";
+    
+}
+.bgsignup1 { 
+    /* The image used */
+   /*background-image: url("leio-mclaren-leiomclaren-299158-unsplash.jpg");*/
+   background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("beautiful-conifers-dog-247522.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Verdana";
+    
+}
+
+.bgsignup2 { 
+    /* The image used */
+   /*background-image: url("leio-mclaren-leiomclaren-299158-unsplash.jpg");*/
+   background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("beautiful-conifers-dog-247522.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Verdana";
+    
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.div1{
+	padding-top:150px;
+	
+}
+.div2{
+    padding-top: 50px;
+    font-family: "Verdana";
+    color: white;
+}
+.div1puppy{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.div2puppy{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.div1health{
+    padding-top: 50px;
+
+}
+.bgadminhome{ 
+    /* The image used */
+   /*background-image: url("leio-mclaren-leiomclaren-299158-unsplash.jpg");*/
+   background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("adorable-animal-blur-406014.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Verdana";
+    
+}
+.bghealth{
+   
+ background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.bgaddprod{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bgpuppy{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bgcart{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bgaccount{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bgproductlist{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bgvcc{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bgproduct1{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bgaddstock{
+   background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #eef2f3, #8e9eab)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.footer{
+	height: 100px;
+}
+.container {
+ 
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom:70px;
+}
+.content .container {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.navbar-brand{
+  font-size:35px;
+  color: white;
+}
+/*.nav navbar-nav{
+  font-size:50px;
+}*/
+.prod1{
+  border-color:black;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.alert{
+    color: #ff4d4d;
+    text-align: left;
+}

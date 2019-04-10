@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home-</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="Screenshot (9).png" type="image/gif" sizes="16x16">
+ 
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+   
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+     
+      <li class="nav-item active">
+        <a class="nav-link" href="Navbar.html">Home</a>
+      </li>
+     <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sign-up
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="signup.html">Sign-up as dog owner</a>
+          <a class="dropdown-item" href="vetsignup1.html">Sign-up as vet</a>
+          
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="login1.html">Login</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="product.html">Product Catalogue</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link " href="healthtips.html">Health Tips</a>
+      </li>
+      
+
+    </ul>
+  </div>
+<a href="#" >
+    <img src="Screenshot (9).png" width="50" height="50" alt="" align="left" HSPACE="25" class="img1" >
+  </a>
+  <h1 style="padding-right: 500px;color: white;color: lightblue;font-family: 'Abril Fatface', cursive;"> Woof Love</h1>
+
+  
+  
+
+</nav>
+</div>
+
+<div class="content" style="max-width:100%;padding-bottom:30px;">
+  <img class="mySlides" src="boys-brother-childhood.jpg" style="width:100%">
+  <img class="mySlides" src="adult-animal.jpg" style="width:100%">
+  <img class="mySlides" src="pexels-photo.jpg" style="width:100%">
+  	<div class="container">
+  		<h1>About Us</h1>
+      <h5>Wolf Love is the complete stop for all your dogs needs.</h5>
+      <h5>Come explore the different varieties of food,grooming products and much more......</h5>
+  		</div>
+  
+</div>
+  
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<nav class="navbar-bottom navbar-dark bg-dark footer" >
+  <div align="center" class="div2">
+    <p >Contact us at wooflove@gmail.com</p>
+  </div>
+  
+</nav>
+
+
+</body>
+</html>
+

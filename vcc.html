@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vaccination Chart</title>
+  <link rel="icon" href="Screenshot (9).png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+   
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Navbar.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="product.html">Product Catalogue</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link " href="healthtips.html">Health Tips</a>
+
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="vetlist.html">Find a vet</a>
+      
+      </li>
+
+    </ul>
+  </div>
+<a href="#" >
+    <img src="Screenshot (9).png" width="50" height="50" alt="" align="left" HSPACE="25" class="img1" >
+  </a>
+  <h1 style="padding-right: 300px;color: white;color: lightblue;font-family: 'Abril Fatface', cursive;"> Woof Love</h1>
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+        <a href="cart.html" >
+    <img src="cart.png" width="50" height="50" alt="" align="left" HSPACE="20" class="img1" >
+  </a>
+      </li>
+  <li class="nav-item active" style="color: white;">
+        <a class="nav-link" href="signup.html" style="padding-top: 15px;">Account</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="login1.html"><button class="btn btn-primary">Logout</button></a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="bgvcc">
+
+<div align="center" class="div1">
+
+  <div class="container">
+    <div class="text-center"></div>
+    <table class="table table-borderless">
+        <tbody>
+            <tr>
+                <th class="">Puppy's Age</th>
+                <th class="">Recommended vaccinations</th>
+                <th class="">Optional vaccinations</th>
+                <th class="">Recommended Date</th>
+                <th class="">Status</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td class="">6 to 8 weeks</td>
+                <td class="" contenteditable="false">Distemper, measles, parainfluenza</td>
+                <td class="">Bordatella</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+      <option>Not Given</option>
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+            <tr>
+                <td class="">10 to 12 weeks</td>
+                <td class="" contenteditable="false">DHPP (vaccines for distemper, adenovirus [hepatitis],
+parainfluenza, and parvovirus)</td>
+                <td class="">Coronavirus, Leptospirosis, Bordatella, Lyme disease</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+      <option>Not Given</option>
+     
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+            <tr>
+                <td class="">12 to 24 weeks</td>
+                <td class="" contenteditable="false">Rabies</td>
+                <td class="">None</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+      <option>Not Given</option>
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+            <tr>
+                <td class="">14 to 16 weeks</td>
+                <td class="" contenteditable="false">DHPP</td>
+                <td class="">Coronavirus, Lyme disease, Leptospirosis</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+      <option>Not Given</option>
+      
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+            <tr>
+                <td class="">12 to 16 months</td>
+                <td class="" contenteditable="false">Rabies,DHPP</td>
+                <td class="">Coronavirus, Leptospirosis, Boradetella, Lyme disease</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+            <tr>
+                <td class="">Every 1 to 2 years</td>
+                <td class="" contenteditable="false">DHPP</td>
+                <td class="">Coronavirus, Leptospirosis, Boradetella, Lyme disease</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+      <option>Not Given</option>
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+            <tr>
+                <td class="">Every 1 to 3 years</td>
+                <td class="" contenteditable="false">Rabies (as required by law)</td>
+                <td class="">None</td>
+                <td class="">dd/mm/yyyy</td>
+                <td class=""><div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select</option>
+      <option>Given</option>
+      <option>Not Given</option>
+    </select>
+  </div></td>
+  <td>  <button type="button" class="btn btn-dark " >Submit</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+  
+
+<nav class="navbar-bottom navbar-dark bg-dark footer">
+  <div align="center" class="div2">
+    <p >Contact us at wooflove@gmail.com</p>
+  </div> 
+</nav>
